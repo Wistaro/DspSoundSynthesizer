@@ -1,7 +1,7 @@
 /*
  * sound.c
  *
- *  Created on: 7 déc. 2017
+ *  Created on: 7 dÃ©c. 2017
  *      Author: Willliam
  */
 
@@ -104,7 +104,7 @@ void generateSound(Uint16 freq, Uint16 duration, float volume){
 		    /* Initialize I2S */
 		    EZDSP5535_I2S_init();
 
-		    /* Play Tone for 5 seconds*/
+		    /* Play Tone for 1 seconds*/
 		    for ( sec = 0 ; sec < 1 ; sec++ )
 		    {
 		        for ( msec = 0 ; msec < freq ; msec++ )
